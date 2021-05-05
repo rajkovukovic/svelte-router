@@ -1,5 +1,6 @@
 # Svelte Router SPA
 
+This project has been cloned from https://github.com/jorgegorka/svelte-router
 ![version](https://img.shields.io/npm/v/svelte-router-spa.svg)
 ![license](https://img.shields.io/github/license/jorgegorka/svelte-router.svg)
 ![Code climate](https://img.shields.io/codeclimate/maintainability/jorgegorka/svelte-router.svg)

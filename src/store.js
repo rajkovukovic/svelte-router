@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import { derived, writable } from 'svelte/store';
 
 const { set, subscribe } = writable({});
 
@@ -12,4 +12,5 @@ const activeRoute = {
   remove,
 };
 
-export { activeRoute };
+const activeRouteReadable = derived(activeRoute, route => route);
+export { activeRoute, activeRouteReadable };
